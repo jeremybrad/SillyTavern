@@ -1,0 +1,4 @@
+name: llamacpp
+label: llama.cpp
+type: custom
+module: extensions.llamacpp-api.main
