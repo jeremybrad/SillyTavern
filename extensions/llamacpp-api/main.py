@@ -54,6 +54,7 @@ def chat_completions():
 
     except Exception as e:
         print("Exception in chat_completions:", str(e))
+        print("Returning assistant message:", response_text)
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
